@@ -1,0 +1,41 @@
+Package: VTOOL
+Title: Una aplicación para explorar y analizar la microbiota vaginal
+Version: 0.9
+Authors@R: 
+    person("Monica", "Ticlla", 
+        email = "mticlla@gmail.com", 
+        role = c("aut", "cre"),
+        comment = c(ORCID = "0000-0002-8070-6542"))
+Description: VTool es una herramienta interactiva y amigable, co-diseñada 
+    por sus usuarios, para la exploración de perfiles microbianos y data 
+    asociada al estudio de la microbiota vaginal.
+Suggests:
+    devtools
+License: CC BY-NC-SA 4.0
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Depends: 
+    R (>= 2.10)
+Imports: 
+    bsicons,
+    bslib,
+    dplyr,
+    DT,
+    fs,
+    ggplot2,
+    heatmaply,
+    magrittr,
+    pkgload,
+    plotly,
+    purrr,
+    RColorBrewer,
+    readr,
+    shiny,
+    shinycssloaders,
+    shinyWidgets,
+    tidytacos
+Remotes:
+    github::LebeerLab/tidytacos,
+    github::daattali/shinycssloaders

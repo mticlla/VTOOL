@@ -1,0 +1,6 @@
+^renv$
+^renv\.lock$
+^VTOOL\.Rproj$
+^\.Rproj\.user$
+^LICENSE\.md$
+^README\.Rmd$

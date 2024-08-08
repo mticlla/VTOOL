@@ -34,6 +34,7 @@ ui <- function(request){
   )
 
   bslib::page_navbar(
+    window_title = "VTOOL",
     title = span(tags$img(src = "www/vtool_logo_2.svg", height = 100, width = 100),
                  class = "header-title"),
     id = "my_navbar",

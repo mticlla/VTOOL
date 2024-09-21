@@ -111,35 +111,14 @@ server <- function(input, output, session){
       req(input$my_data_samples, input$my_data_abundance, input$my_data_taxa)
       withProgress(
         message = "Cargando tus datos ...", value = 0, {
-          my_samples <- readr::read_csv(input$my_data_samples$datapath,
-                                        col_types = readr::cols())
-          incProgress(.2, message = "samples.csv imported!")
 
-          my_taxa <- readr::read_csv(input$my_data_taxa$datapath,
-                                     col_types = readr::cols())
-          incProgress(.4, message = "taxa.csv imported!")
-
-          my_counts <- readr::read_csv(input$my_data_abundance$datapath,
-                                       col_types = readr::cols())
-          incProgress(.6, message = "counts.csv imported!")
-
-          expected_rank_names <- colnames(my_taxa)[!colnames(my_taxa) %in%
-                                                     c("taxon","taxon_id","sequence")]
+          my_vdata <- tidytacos::read_tidytacos("",
+                                                samples=input$my_data_samples$datapath,
+                                                taxa=input$my_data_taxa$datapath,
+                                                counts=input$my_data_abundance$datapath)
+          
           incProgress(.7, message = "combining all files ...")
-          my_vdata <- tidytacos:::make_tidytacos(samples = my_samples,
-                                                 taxa = my_taxa,
-                                                 counts = my_counts,
-                                                 sample_name = sample_id,
-                                                 taxon_name = taxon_id)
-          if ( !all(my_vdata %>% tidytacos::rank_names() %in% expected_rank_names)) {
-            warning(paste0(
-              "Not all default rank names found. Replacing them with:\n c(\"",
-              paste(expected_rank_names, collapse='","'),
-              "\")\n\nIf these are not the rank names of your taxon table, \nplease set ",
-              "them manually using 'set_rank_names()'"))
-            my_vdata <- my_vdata %>% tidytacos::set_rank_names(expected_rank_names)
-          }
-
+          
           my_vdata <- my_vdata %>%
             tidytacos::add_mean_rel_abundance() %>%
             tidytacos::add_prevalence() %>%

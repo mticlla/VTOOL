@@ -16,6 +16,8 @@ knitr::opts_chunk$set(
 # VTOOL
 
 <!-- badges: start -->
+[![es](https://img.shields.io/badge/lang-es-yellow.svg)](https://github.com/mticlla/VTOOL/blob/master/README.md)
+[![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/mticlla/VTOOL/blob/master/README.en.md)
 <!-- badges: end -->
 <p align="center"><img src="man/figures/vtool_logo_1.svg" width="200"/></p>
 

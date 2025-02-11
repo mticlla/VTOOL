@@ -1,0 +1,249 @@
+{
+    "languages": [
+        "es",
+        "en",
+        "nl"
+    ],
+    "translation": [
+        {
+            "en": "1. Select the format of the input",
+            "es": "1. Selecciona el formato del archivo:",
+            "nl": "1. Selecteer het formaat van de input"
+        },
+        {
+            "en": "2. Search for your file(s):",
+            "es": "2. Encuentra tu(s) archivos:",
+            "nl": "2. Zoek je bestand(en):"
+        },
+        {
+            "en": "Abundancy",
+            "es": "Abundancias",
+            "nl": "Abundantie"
+        },
+        {
+            "en": "Change language",
+            "es": "Cambiar idioma",
+            "nl": "Verander taal"
+        },
+        {
+            "en": "Composition",
+            "es": "Composición",
+            "nl": "Compositie"
+        },
+        {
+            "en": "Data",
+            "es": "Datos",
+            "nl": "Data"
+        },
+        {
+            "en": "Let's start with uploading your data",
+            "es": "Empezemos cargando tus datos",
+            "nl": "Laten we beginnen met de upload van jouw data"
+        },
+        {
+            "en": "Filter",
+            "es": "Filtrar",
+            "nl": "Filteren"
+        },
+        {
+            "en": "Filter Data",
+            "es": "Filtrar Datos",
+            "nl": "Data Filteren"
+        },
+        {
+            "en": "Filter samples",
+            "es": "Filtrar muestras",
+            "nl": "Filter stalen"
+        },
+        {
+            "en": "Format",
+            "es": "Formato:",
+            "nl": "Formaat"
+        },
+        {
+            "en": "Start",
+            "es": "Inicio",
+            "nl": "Begin"
+        },
+        {
+            "en": "Total reads",
+            "es": "Lecturas Totales",
+            "nl": "Totaal aantal sequenties"
+        },
+        {
+            "en": "Samples",
+            "es": "Muestras",
+            "nl": "Stalen"
+        },
+        {
+            "en": "Samples and metadata",
+            "es": "Muestras y metadata",
+            "nl": "Stalen en metadata"
+        },
+        {
+            "en": "Amount of samples",
+            "es": "Nr. de Muestras",
+            "nl": "Aantal stalen"
+        },
+        {
+            "en": "Amount of taxa",
+            "es": "Nr. de Taxones",
+            "nl": "Aantal taxa"
+        },
+        {
+            "en": "Remove filters",
+            "es": "Remover filtros",
+            "nl": "Verwijder filters"
+        },
+        {
+            "en": "Dominant taxa",
+            "es": "Taxón dominante",
+            "nl": "Dominante taxa"
+        },
+        {
+            "en": "Taxa and metadata",
+            "es": "Taxones y metadata",
+            "nl": "Taxa en metadata"
+        },
+        {
+            "en": "A tool to explore data to study the vaginal microbiome",
+            "es": "Un explorador de datos para estudiar el microbioma vaginal",
+            "nl": "Een dataverkenner om het vaginale microbioom te bestuderen"
+        },
+        {
+            "en": "Taxonomy",
+            "es": "Taxonomia",
+            "nl": "Taxonomie"
+        },
+        {
+            "en": "Import data",
+            "es": "Importar datos",
+            "nl": "Importeer data"
+        },
+        {
+            "en": "Or load an example dataset",
+            "es": "O carga un dataset ejemplo",
+            "nl": "Of laad een voorbeel dataset in"
+        },
+        {
+            "en": "Load example",
+            "es": "Cargar ejemplo",
+            "nl": "Laad voorbeeld"
+        },
+        {
+            "en": "VTOOL is a tool for exploratory data analysis based on Shiny. Through an interactive and intuitive interface, this tool aims to facilitate the exploration and visualization of data associated with the study of the vaginal microbiome.",
+            "es": "VTOOL es una herramienta basada en Shiny para el análisis exploratorio de datos. A través de una interface interactiva e intuitiva, esta herramienta busca facilitar la exploración y visualización de datos asociados al estudio del microbioma vaginal.",
+            "nl": "VTOOL is een applicatie voor de visualisatie en verkenning van data gebaseerd op Shiny. Met behulp van een intuitieve en interactieve interface, wil deze tool het verkennen en weergeven van data geassocieerd met het bestuderen van het vaginale microbioom faciliteren."
+        },
+        {
+            "en": "VTOOL is an open source project, developed in collaboration with researchers and bioninformaticians, who seek to further the study of the vaginal microbiome. If you are interested in contributing, reporting bugs, or learning more about this project, please",
+            "es": "VTOOL es un proyecto de código abierto (open source), esarrollado en colaboración con investigadores y bioninformáticos, quienes buscan fomentar el estudio del microbioma vaginal. Si te interesa contribuir, reportar errores, o saber más de este proyecto, por favor",
+            "nl": "VTOOL is een open source project, ontwikkeld in nauwe samenwerking met onderzoekers en bio-informatici, die de studie van het vaginale microbioom willen bevorderen. Als je geïnteresseerd bent om bij te dragen, bugs te rapporteren of meer te weten te komen over dit project"
+        },
+        {
+            "es": "visita nuestro repositorio en GitHub",
+            "en":"visit our repository on GitHub",
+            "nl":"bezoek onze repository op Github"
+        },
+        {
+            "en": "No file selected",
+            "es": "Ningun archivo seleccionado",
+            "nl": "Geen bestand geselecteerd"
+        },
+        {
+            "en": "Explore table",
+            "es": "Explorar Tabla",
+            "nl": "Verken de tabel"
+        },
+        {
+            "en": "Missing values",
+            "es": "Data Faltante",
+            "nl": "Ontbrekende gegevens"
+        },
+        {
+            "en": "Here you can view the samples and their metadata",
+            "es": "Esta vista te permite explorar las muestras y su metadata.",
+            "nl": "Hier kan je de stalen en metadata bekijken"
+        },
+        {
+            "en": "This view allows you to explore patterns of missing values (NA) in the sample table. The graph shown is a graphical representation of the table, where cells containing values are light gray",
+            "es": "Esta vista permite explorar patrones de valores faltantes (NA) en la tabla de muestras. El gráfico que mostramos es una representación gráfica de la tabla, donde las celdas que contienen valores son de color",
+            "nl": "Met deze weergave kun je patronen van ontbrekende waarden (NA) in de voorbeeldtabel onderzoeken. De weergegeven grafiek is een grafische weergave van de tabel, waarbij cellen met waarden"
+        },
+        {
+            "es": "y las celdas con valores faltantes son de color",
+            "en": "and cells with missing values are",
+            "nl": "zijn en cellen met ontbrekende waarden"
+        },
+        {
+            "es":"gris claro",
+            "en":"light gray",
+            "nl":"lichtgrijs"
+        },
+        {
+            "es":"gris oscuro",
+            "en":"dark grey",
+            "nl":"donkergrijs"
+        },
+        {
+            "en": "In addition, the order of the rows and columns has been rearranged so that samples with missing values in the same columns are grouped together. Similarly, columns with missing values in the same samples are grouped together.",
+            "es": "Además, el orden de las filas y las columnas ha sido re-organizado de tal modo que muestras con valores faltantes en las mismas columnas son agrupadas. De igual manera, columnas con valores faltantes en las mismas muestras son agrupadas.",
+            "nl": "Daarnaast is de volgorde van rijen en kolommen herschikt, zodat steekproeven met ontbrekende waarden in dezelfde kolommen zijn gegroepeerd. Op dezelfde manier zijn kolommen met ontbrekende waarden in dezelfde steekproeven gegroepeerd."
+        },
+        {
+            "en": "Here you can view the taxa and their metadata",
+            "es": "Esta vista te permite explorar las taxa y su metadata.",
+            "nl": "TODO"
+        },
+        {
+            "en": "In this view you can explore the abundance of each taxa in each sample",
+            "es": "Esta vista te permite explorar la abundancia de cada taxón en cada muestra.",
+            "nl": "In dit venster kan je de aanwezigheid van specifieke taxa in elk staal visualizeren"
+        },
+        {
+            "en": "Profiles",
+            "es": "Perfiles",
+            "nl": "Profielen"
+        },
+        {
+            "en": "Show legend",
+            "es": "Mostrar legend",
+            "nl": "Toon legende"
+        },
+        {
+            "en": "Group participants by variable",
+            "es": "Agrupar participantes según variable",
+            "nl": "Groepeer participanten adhv variabele"
+        },
+        {
+            "es": "Variable seleccionada: ",
+            "en": "Variable selected: ",
+            "nl": "Gekozen variabele: "
+        },
+        {
+            "en": "Group by taxonomical categorie",
+            "es": "Agrupar por categoría taxonómica",
+            "nl": "Groepeer obv taxonomie"
+        },
+        {
+            "en": "Stratify by variable",
+            "es": "Estratificar por variable",
+            "nl": "Stratificeer adhv variabele"
+        },
+        {
+            "en": "Upload the table 'samples.csv'",
+            "es": "Carga la tabla 'samples.csv'",
+            "nl": "Laad de tabel 'samples.csv' op"
+        },
+        {
+            "en": "Upload the table 'counts.csv' or 'abundances.csv'",
+            "es": "Carga la tabla 'counts.csv' o 'abundances.csv'",
+            "nl": "Laad de tabel 'counts.csv' of 'abundances.csv' op"
+        },
+        {
+            "en": "Upload the table 'taxa.csv'",
+            "es": "Carga la table 'taxa.csv'",
+            "nl": "Laad de tabel 'taxa.csv' op"
+        }
+    ]
+}

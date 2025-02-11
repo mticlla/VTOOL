@@ -38,4 +38,5 @@ Imports:
     tidytacos
 Remotes:
     github::LebeerLab/tidytacos,
-    github::daattali/shinycssloaders
+    github::daattali/shinycssloaders,
+    github::Appsilon/shiny.i18n

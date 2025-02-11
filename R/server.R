@@ -1,4 +1,18 @@
+i18n <- shiny.i18n::Translator$new(translation_json_path = "inst/app/translation.json")
+i18n$set_translation_language("es")
+
 server <- function(input, output, session){
+
+  # i18n_r <- reactive({
+  #   i18n
+  # })
+
+  observeEvent(input$selected_language, {
+      shiny.i18n::update_lang(input$selected_language, session = session)
+      #i18n_r()$set_translation_language(input$selected_language)
+      #cat("Lang updated to:", input$selected_language, "\n")
+  })
+
   my_color_palette <- c("#00719A","#FCD0BE","#413647","#FF9A73","#063547",
                         "#992B00","#F3D9AE","#6991B3","#B8062F","#BDECFC",
                         "#D3D3D3")
@@ -21,11 +35,12 @@ server <- function(input, output, session){
   )
 
   my_data_sidebar_fileinput_tables <- bslib::card_body(
+    shiny.i18n::usei18n(i18n),
     fillable = FALSE,
     fileInput("my_data_samples",
-              label = span("Muestras",
+              label = span(i18n$t("Muestras"),
                            bslib::tooltip(bsicons::bs_icon("info-circle"),
-                                          "Carga la tabla 'samples.csv'",
+                                          i18n$t("Carga la tabla 'samples.csv'"),
                                           placement = "right")),
               #buttonLabel = "Buscar 'samples.csv'",
               buttonLabel = bsicons::bs_icon("upload"),
@@ -67,7 +82,7 @@ server <- function(input, output, session){
                 buttonLabel = bsicons::bs_icon("upload"),
                 accept = c(".biom"),
                 width = "100%",
-                placeholder = "Ningún archivo seleccionado"
+                placeholder = i18n$t("Ningún archivo seleccionado")
       )
     )
   )
@@ -1123,7 +1138,7 @@ server <- function(input, output, session){
                                   xref="paper", xanchor="left",
                                   showarrow=FALSE) %>%
           plotly::layout(barmode = "stack",
-                         xaxis = list(title = "Muestras", showticklabels=FALSE),
+                         xaxis = list(title = i18n$t("Muestras"), showticklabels=FALSE),
                          yaxis = list(title = "Abundancia Relativa"),
                          legend = list(title = list(text = "Taxón")))
       })
